@@ -3,7 +3,6 @@ print("Hello world") 	print("Hello world")
 print ("H"+"2")
 
  x=input("x=x" +"(y/n)")
-
  if x=="n":
     print("no")
 elif x=="y":
