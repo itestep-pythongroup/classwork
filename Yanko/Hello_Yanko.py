@@ -9,5 +9,3 @@ elif x=="y":
     print("yes")
 else:
     print("O_o")
-
-print("Hello" +"Home!")
