@@ -1,45 +1,59 @@
 #!/usr/bin/python3.7
 
-
+# Напечатать привет
 def print_hello(print,input):
-    print("hello world")
+    pass
 
-    
-def print_yes_or_no(print,input):
-    x = input()
-    if x == "y":
-        print("yes")
-    elif x == "n":
-        print("no")
-    else:
-        print("------")
+# Напечатать сумму чисел 3 и 2
+def print_sum(print,input):
+    pass
 
-        
-def make_check(print,input):
-    divisor = 1.0
-    if input("is-usd?") == "y":
-        divisor = 27.0
-    
-    beef = 40.0/divisor
-    beef_amount_in_kg = 1.3
-    chicken = 56.0/divisor
-    chicken_amount_in_kg = 2.3
-    tomatoes = 45.0/divisor
-    tomatoes_amount_in_kg = 3.7
-    avocado  = 22.0/divisor
-    avocado_amount_in_pieces = 5.0
-    
-    total = beef*beef_amount_in_kg\
-            +chicken*chicken_amount_in_kg\
-            +tomatoes_amount_in_kg*chicken_amount_in_kg\
-            +avocado*avocado_amount_in_pieces
-    
-    tax = total * 0.20
-    total_and_tax = tax + total
-    
-    print("Beef__________","(",beef_amount_in_kg, ")",beef*beef_amount_in_kg)
-    print("Chicken_______","(",chicken_amount_in_kg,")",chicken*chicken_amount_in_kg)
-    print("Tomatoes______","(",tomatoes_amount_in_kg,")",tomatoes_amount_in_kg*chicken_amount_in_kg)
-    print("Avocado_______","(",avocado_amount_in_pieces,")",avocado*avocado_amount_in_pieces)
-    print("Tax___________ ( 20% )",tax)
-    print("Total+Tax_____","       ",total_and_tax)
+# конверсия типов. Выведите сложение x и y как текста, например 3+4 = 34, 125+2 = 1252
+def print_type_convert_2(print,input,x,y):
+    pass
+
+# конверсия типов. Выведите сложение x и y как числа, хотя x и y текст, например 3+4 = 7, 125+2 = 127
+def print_type_convert_3(print,input,x,y):
+    pass
+
+# конверсия типов, булевы значения. Напишите булево равенство между двумя строками
+
+
+# конверсия типов(повторение) напечатать сложение x и того, и того, что пришло в input
+def print_type_convert_1(print,input,x):
+    pass
+
+# ветвление: Напечатать "I","II","III" если x = 1,2,3, и "~" в других случаях
+def print_roman(print,input,x):
+    pass
+
+# ветвление: напечатать True если x больше 18 и False если меньше
+def print_pivot(print,input,x):
+    pass
+
+# ветвление: напечатать True если x больше 18 и меньше 27
+def print_pivot_1(print,input,x):
+    pass
+
+# ветвление: напечатать True если x больше 18 и меньше 27 а так-же больше 3 и меньше 11
+def print_pivot_2(print,input,x):
+    pass
+
+
+# функции: вернуть сложение чисел 3 и 4
+def return_sum():
+    pass
+
+# функции: вернуть значение x
+def return_sum_1(x):
+    pass
+
+# функции: вернуть сумму значений x и y
+def return_sum_2(x):
+    pass
+
+# функции, вернуть функцию которая суммирует два числа если x == 1 и вычитает если x == 0
+def return_sum_3(x):
+    pass
+
+

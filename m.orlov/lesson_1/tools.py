@@ -23,9 +23,9 @@ class TestBase(unittest.TestCase):
             return ""
         return input
     
-    def iotester(self,testfn,expected_input,expected_print,*args):
+    def iotester(self,testfn,expected_input,expected_print):
         print,print_out = self.printer()
-        testfn(print,self.inputer(expected_input),*args)
+        testfn(print,self.inputer(expected_input))
         self.assertEqual(print_out(),expected_print.strip())
         
     @staticmethod    
