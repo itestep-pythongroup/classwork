@@ -7,7 +7,7 @@ class TestBase(unittest.TestCase):
     def printer(self):
         res = []
         def print(*args,**kwargs):
-            res.append(" ".join(args))
+            res.append(" ".join([str(i) for i in args]))
             
         def out():
             return "\n".join(res)
@@ -19,7 +19,7 @@ class TestBase(unittest.TestCase):
         cp.reverse()
         def input(*args):
             if cp:
-              return cp.pop()
+              return str(cp.pop())
             return ""
         return input
     
