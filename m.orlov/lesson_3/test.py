@@ -4,38 +4,74 @@ from tools import TestBase
 
 class TestLesson(TestBase):
     
+    def a(self,a,b):
+        self.assertEqual(a,b)
+        
     def test_print_hello(self):
-        self.iotester(print_hello,[],"hello world")
+        self.iotester(print_hello,[],"привет")
+        
+    def test_print_sum(self):
+        self.iotester(print_sum,[],"5")
 
-    def test_yes_or_no(self):
-        self.iotester(print_yes_or_no,["y"],"yes")
-        self.iotester(print_yes_or_no,["n"],"no")
-        self.iotester(print_yes_or_no,[""],"------")
-    
-    def test_make_check_is_isd(self):
-        self.iotester(make_check,["y"],"""
+    def test_print_pivot(self):
+        self.iotester(print_pivot,[],"False",10)
+        self.iotester(print_pivot,[],"True",20)
 
-Beef__________ ( 1.3 ) 1.9259259259259258
-Chicken_______ ( 2.3 ) 4.77037037037037
-Tomatoes______ ( 3.7 ) 8.51
-Avocado_______ ( 5.0 ) 4.0740740740740735
-Tax___________ ( 20% ) 3.8560740740740735
-Total+Tax_____         23.13644444444444
+    def test_print_pivot_1(self):
+        self.iotester(print_pivot_1,[],"True",19)
+        self.iotester(print_pivot_1,[],"True",26)
+        self.iotester(print_pivot_1,[],"False",3)
+        self.iotester(print_pivot_1,[],"False",12)
+        self.iotester(print_pivot_1,[],"False",17)
+        self.iotester(print_pivot_1,[],"False",29)
+        
+    def test_print_pivot_2(self):
+        self.iotester(print_pivot_2,[],"True",8)
+        self.iotester(print_pivot_2,[],"True",4)
+        self.iotester(print_pivot_2,[],"True",10)
+        self.iotester(print_pivot_2,[],"True",19)
+        self.iotester(print_pivot_2,[],"True",26)
+        self.iotester(print_pivot_2,[],"False",3)
+        self.iotester(print_pivot_2,[],"False",12)
+        self.iotester(print_pivot_2,[],"False",17)
+        self.iotester(print_pivot_2,[],"False",29)
+        
+    def test_print_roman(self):
+        self.iotester(print_roman,[],"I",1)
+        self.iotester(print_roman,[],"II",2)
+        self.iotester(print_roman,[],"III",3)
+        self.iotester(print_roman,[],"~",4)
+        self.iotester(print_roman,[],"~",0)
+        
+    def print_type_convert_1(self):
+        self.iotester(print_type_convert_1,["123"],"133",10)
+        self.iotester(print_type_convert_1,["-10"],"0",10)
+        
+    def print_type_convert_3(self):
+        self.iotester(print_type_convert_1,[],"137","4","133")
+        self.iotester(print_type_convert_1,[],"28","10","18")
 
-        """)
-    def test_make_check_not_is_usd(self):
+    def print_type_convert_2(self):
+        self.iotester(print_type_convert_2,[],"1334",133,4)
+        self.iotester(print_type_convert_2,[],"100",10,0)
+        self.iotester(print_type_convert_2,[],"10-10",10,-10)
 
-        self.iotester(make_check,["n"],"""
+    def test_return_sum(self):
+        self.a(return_sum(),7)
+        
+    def test_return_sum_1(self):
+        self.a(return_sum_1(9),9)
+        self.a(return_sum_1(5),5)
+        
+    def test_return_sum_2(self):
+        self.a(return_sum_2(9,1),10)
+        self.a(return_sum_2(3,2),5)
 
-Beef__________ ( 1.3 ) 52.0
-Chicken_______ ( 2.3 ) 128.79999999999998
-Tomatoes______ ( 3.7 ) 8.51
-Avocado_______ ( 5.0 ) 110.0
-Tax___________ ( 20% ) 59.861999999999995
-Total+Tax_____         359.1719999999999
-
-
-        """)        
+    def test_return_sum_3(self):
+        self.a(return_sum_3(1)(9,1),10)
+        self.a(return_sum_3(1)(3,2),5)
+        self.a(return_sum_3(0)(9,1),8)
+        self.a(return_sum_3(0)(3,2),1)
         
 if __name__ == '__main__':
     TestBase.runner()
