@@ -1,5 +1,5 @@
 print("Hello" +"Home!")
-x=input("Enter:")
+x=input("Enter number:")
 if x=="1":
     print("I")
 elif x=="2":
