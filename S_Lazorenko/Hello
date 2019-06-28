@@ -1,3 +1,4 @@
+
 x=input("(Y/N)\n")
 if x=="N":
     print("NO")
@@ -6,10 +7,4 @@ elif x=="Y":
 else:
     print("------------")
 
-
-
-
-
-
-
-
+print ("Hello")
