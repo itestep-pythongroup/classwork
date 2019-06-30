@@ -4,6 +4,6 @@ if x=="N":
 elif x=="Y":
     print("YES")
 else:
-    print("------------------")
+    print("---------------------")
 
 print ("Hello")
