@@ -20,4 +20,4 @@ elif x == "9":
 elif x == "10":
     print("X")
 else:
-    print("not a number")
+    print("not a  number")
