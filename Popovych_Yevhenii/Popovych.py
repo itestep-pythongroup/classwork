@@ -1,2 +1,2 @@
-print('Hello')
-print('Hello')
+a = float(input())
+print(a)
