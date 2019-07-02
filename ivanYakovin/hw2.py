@@ -25,11 +25,11 @@ mult_str('2','6')
 print('*****TASK ThREE*****')
 
 def _ul(a,b,c):
-    return ('<ul>'+a+b+c+"</ul>")
+    return ('<ul>\n'+a+b+c+"</ul>\n")
 
 def _li(x):
-    return ('<li>'+x+"</li>")
+    return ('<li>'+x+"</li>\n")
 
-print(_ul(_li('Homework TODO'),_li('list'),_li('third')))
+print(_ul(_li('Homework TODO'),_ul(_li('first'),_li('second'),_li('third')),_ul('grocery',' ',' ')))
 
 print('end hw')
