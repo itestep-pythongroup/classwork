@@ -5,6 +5,15 @@ def coordinat(x,y):
         print("II")
     elif x<0 and y<0:
         print("III")
-    else:
+    elif x>0 and y<0:
         print("IV")
-coordinat(-1,-3)
+    else:
+        print("undefined")
+coordinat(-1,0)
+
+# f("3","4") => "7"
+# f("5","6") => "11"
+def sum_str(x,y):
+    sum = int(x)+int(y)
+    print(str(sum))
+sum_str(1,2)
