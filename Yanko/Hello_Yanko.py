@@ -8,5 +8,4 @@ if x=="n":
 elif x=="y":
     print("yes")
 else:
-    print("XXXXXX")
-
+    print("error")
