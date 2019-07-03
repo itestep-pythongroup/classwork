@@ -9,7 +9,7 @@ def coordinat(x,y):
         print("IV")
     else:
         print("undefined")
-coordinat(-1,0)
+coordinat(0,0)
 
 # f("3","4") => "7"
 # f("5","6") => "11"
