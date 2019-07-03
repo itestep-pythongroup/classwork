@@ -78,17 +78,48 @@
 
 # Генерация списка
 
-def ul(item1,item2,item3):
-    wrapped = "<ul>" + item1 + item2 + item3 + "</ul>"
-    return (wrapped)
+# def ul(item1,item2,item3):
+#     wrapped = "<ul>" + item1 + item2 + item3 + "</ul>"
+#     return (wrapped)
+#
+# def li(item):
+#     wrapped =("<li>" + item + "</li>")
+#     return wrapped
+#
+# print (
+#     ul(li("a"),
+#        li("b"),
+#        ul(li("b1"),
+#           li("b2"),
+#           li("b3"))))
 
-def li(item):
-    wrapped =("<li>" + item + "</li>")
-    return wrapped
+# def ul(item1,item2,item3):
+#     wrapped = "<ul>" + item1 + item2 + item3 + "</ul>"
+#     return (wrapped)
+#
+# def li(item):
+#     wrapped =("<li>" + item + "</li>")
+#     return wrapped
+#
+# def b(item):
+#     wrapped =("<b>" + item + "</b>")
+#     return wrapped
+#
+# print (
+#     ul(li("a"),
+#        li(b("b")),
+#        ul(li("b1"),
+#           li("b2"),
+#           li("b3"))))
 
-print (
-    ul(li("a"),
-       li("b"),
-       ul(li("b1"),
-          li("b2"),
-          li("b3"))))
+# Итерация
+
+# x=0
+# while True:
+#     x=x+1
+#     print(x)
+
+x = 0
+while x<3:
+    x = x+1
+    print("finished",x)
