@@ -18,11 +18,33 @@
 #         print("float")
 # tip("c")
 
-def preoobrazovanie(a,b):
-    x=('a'+'b')
+# def preoobrazovanie(a,b):
+#     x=('a'+'b')
+#     print(preoobrazovanie())
+#
+# def ul(item1, item2, item3):
+#      return "<ul>"+ item2+item2+item3+"<ul>"
+#
+# def li(item):
+#       return "<li>" + item + "</li>"
+# print (ul(li("a"),
+#        li("привет"),
+#        ul(li("пока"),
+#           li("до завтра"),
+#           li("до послезавтра"))))
+# послезавтра
+# x=0
+# while True:
+#    if x == 3:
+#        break
+#    x=x+1
+# print("finished: ",x)
 
-    print(preoobrazovanie())
+x = 0
+while x < 7:
+    if x == 4:
+        x = x + 1
+        continue
+    x = x + 2
 
-
-
-
+print("finished: ", x)
