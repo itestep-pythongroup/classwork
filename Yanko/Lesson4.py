@@ -52,16 +52,43 @@
 
 # разбор домашки:
 
-def ul(item1,item2,item3):
-    return ("<ul>"+item1+item2+item3+"</ul>")
-print (ul("Hello " ,"World" ,"!"))
-
-def li(item):
-    return("<li>"+item+"</li>")
-print (li("World"))
+# def ul(item1,item2,item3):
+#     return ("<ul>"+item1+item2+item3+"</ul>")
+# print (ul("Hello " ,"World" ,"!"))
+#
+# def li(item):
+#     return("<li>"+item+"</li>")
+# print (li("World"))
 
 
 # pass - пропуск
 # HTML теги для разметки страницы:
 # 1) ul - список HTML
 # 2) li -
+
+# def ul(item1,item2,item3):
+#     wrapped = "<ul>" + item1 + item2 + item3 + "</ul>"
+#     return (wrapped)
+#
+# def li(item):
+#     wrapped =("<li>" + item + "</li>")
+#     return wrapped
+#
+# print (li("World"))
+
+# Генерация списка
+
+def ul(item1,item2,item3):
+    wrapped = "<ul>" + item1 + item2 + item3 + "</ul>"
+    return (wrapped)
+
+def li(item):
+    wrapped =("<li>" + item + "</li>")
+    return wrapped
+
+print (
+    ul(li("a"),
+       li("b"),
+       ul(li("b1"),
+          li("b2"),
+          li("b3"))))
