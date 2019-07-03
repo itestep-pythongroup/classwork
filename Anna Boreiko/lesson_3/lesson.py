@@ -53,3 +53,9 @@ x = wer(3,4)
 print(x)
 print(type(x))
 
+def  li(item):
+    return ("<li>"+item+"</li>")
+
+
+print (li("Anna"))
+
