@@ -54,7 +54,7 @@
 
 def ul(item1,item2,item3):
     return ("<ul>"+item1+item2+item3+"</ul>")
-print (ul("a" ,"b" ,"c"))
+print (ul("Hello " ,"World" ,"!"))
 
 def li(item):
     return("<li>"+item+"</li>")
