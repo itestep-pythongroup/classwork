@@ -119,7 +119,24 @@
 #     x=x+1
 #     print(x)
 
-x = 0
-while x<3:
-    x = x+1
-    print("finished",x)
+# x = 0
+# while x<3:
+#     x = x+1
+#     print("finished",x)
+
+# x=0
+# while True:
+#     if x==3:
+#         break
+#     x=x+1
+# print("finished",x)
+
+x=0
+while x<7:
+    if x==4:
+        x=x+1
+        continue
+    x=x+2
+
+print("finished",x)
+
