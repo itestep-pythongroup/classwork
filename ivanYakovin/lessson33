@@ -1,0 +1,45 @@
+def print_hello(a,b,c):
+    x=a*b*c
+    print(x)
+
+print_hello(4,5,7)
+
+
+def myPrint(a):
+    print('**',a,'**')
+
+myPrint('hello')
+
+def sum2(a,b):
+    x=a+b
+    return x
+y=sum2(4,3)
+print(sum2(5,3))
+
+def mul(a,b):
+    x=a**b
+    return x
+y=mul(4,3)
+print(mul(5,3))
+
+print(type(y))
+
+
+def val(a):
+
+    if type(a) == int:
+        print('int')
+    elif type(a) == str:
+        print('string')
+    elif type(a) == bool:
+        print('bool')
+    else:
+        print('undefined')
+
+def val2(a,b):
+
+    x = int(str(a)+str(b))
+    print(x)
+    print(type(x))
+
+val2(2,3)
