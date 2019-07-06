@@ -16,7 +16,6 @@ class TestLesson(TestBase):
     def test_print_pivot(self):
         self.iotester(print_pivot,[],"False",10)
         self.iotester(print_pivot,[],"True",20)
-<<<<<<< Updated upstream
         
     def test_type_dispatch(self):
         self.iotester(type_dispatch,[],"number",10)
@@ -40,8 +39,6 @@ class TestLesson(TestBase):
         self.iotester(ifelse_small_game,["n","n"],"0")
         self.iotester(ifelse_small_game,["n","y"],"2")
         self.iotester(ifelse_small_game,["n","y"],"2")
-=======
->>>>>>> Stashed changes
 
     def test_print_pivot_1(self):
         self.iotester(print_pivot_1,[],"True",19)
@@ -98,7 +95,6 @@ class TestLesson(TestBase):
         self.a(return_sum_3(1)(3,2),5)
         self.a(return_sum_3(0)(9,1),8)
         self.a(return_sum_3(0)(3,2),1)
-<<<<<<< Updated upstream
 
     def test_iterate_1(self):
         self.iotester(iterate_1,[],"1\n2\n3\n4\n5")
@@ -145,8 +141,6 @@ class TestLesson(TestBase):
         self.a(vector_4("())"),False)
         self.a(vector_4("()()("),False)
         self.a(vector_4("(()((()))"),False)
-=======
->>>>>>> Stashed changes
         
 if __name__ == '__main__':
     TestBase.runner()

@@ -16,7 +16,6 @@ def print_type_convert_2(print,input,x,y):
 def print_type_convert_3(print,input,x,y):
     pass
 
-<<<<<<< Updated upstream
 # конверсия типов, булевы значения. Приведите к булевому типу пустую строку, строку, число, нулевое число
 
 # булева алгебра, and or not. 
@@ -33,10 +32,6 @@ def boolean_and(print,input):
 # string  если x строка
 def type_dispatch(print,input,x):
     pass
-=======
-# конверсия типов, булевы значения. Напишите булево равенство между двумя строками
-
->>>>>>> Stashed changes
 
 # конверсия типов(повторение) напечатать сложение x и того, и того, что пришло в input
 def print_type_convert_1(print,input,x):
@@ -58,7 +53,6 @@ def print_pivot_1(print,input,x):
 def print_pivot_2(print,input,x):
     pass
 
-<<<<<<< Updated upstream
 # ветвление: написать игру угадай число, пользователь загадывает число от 0 до 6, угадать его
 def ifelse_small_game(print,input):
     pass
@@ -68,8 +62,6 @@ def ifelse_small_game(print,input):
 # если нельзя точно определить (в нули), вывести undefined
 def ifelse_coordinates(print,input):
     pass
-=======
->>>>>>> Stashed changes
 
 # функции: вернуть сложение чисел 3 и 4
 def return_sum():
@@ -87,7 +79,6 @@ def return_sum_2(x):
 def return_sum_3(x):
     pass
 
-<<<<<<< Updated upstream
 # итерация, вывести на экран числа от 1 до 5
 def iterate_1(print,input):
     pass
@@ -126,6 +117,4 @@ def vector_3(x,y):
 # неправильные: "(()", "())()", "(()((()))"
 def vector_4(x,y):
     pass
-=======
->>>>>>> Stashed changes
 
