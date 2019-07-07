@@ -1,6 +1,4 @@
-print(1 % 2)
-print(2 % 2)
-print(3 % 2)
-print(4 % 2)
-print(5 % 2)
-print(6 % 2)
+a = 0
+while a <= 1000:
+    print(a)
+    a += 2
