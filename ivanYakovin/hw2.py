@@ -30,6 +30,7 @@ def _ul(a,b,c):
 def _li(x):
     return ('<li>'+x+"</li>\n")
 
+<<<<<<< HEAD
 print(_ul(_li('Homework TODO'),
           _ul(_li('first'),
               _li('second')
@@ -40,3 +41,8 @@ print('end hw')
 
 
 
+=======
+print(_ul(_li('Homework TODO'),_ul(_li('first'),_li('second'),_li('third')),_li('grocery')))
+
+print('end hw')
+>>>>>>> d79ee2b59e0a83da93a932e7c37b855fe7364e6a

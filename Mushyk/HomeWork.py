@@ -1,4 +1,2 @@
-
 print("HomeWork")
 print("Hello")
-

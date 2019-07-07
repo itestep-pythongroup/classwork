@@ -1,4 +1,5 @@
-def coordinat(x,y):
+print("1 part")
+def f1(x,y):
     if x>0 and y>0:
         print("I")
     elif x<0 and y>0:
@@ -9,13 +10,14 @@ def coordinat(x,y):
         print("IV")
     else:
         print("undefined")
-        
-coordinat(0,0)
-coordinat(-1,-3)
+f1(1,3)
 
-# f("3","4") => "7"
-# f("5","6") => "11"
-def sum_str(x,y):
-    sum = int(x)+int(y)
-    print(str(sum))
-sum_str(1,2)
+print("3 part")
+def f3(x,y):
+    z=x+y
+    print(z)
+f3(3,4)
+f3(5,6)
+
+print("2 part")
+def f2

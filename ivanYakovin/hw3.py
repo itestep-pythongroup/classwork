@@ -34,8 +34,9 @@ while x<100:
 # далее вместо двойки можем подствлять любіе числа 7,13,11 и т.д
 
 print('**TASK FOURth**')
-def primeNum(a):
-    b=1
-    while b<a:
-        b+=1
-        if a%b==0:
+#def primeNum(a):
+ #   b=1
+ #   while b<a:
+  #      b+=1
+   #     if a%b==0:
+    #        continue
