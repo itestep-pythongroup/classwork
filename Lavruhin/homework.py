@@ -1,2 +1,1 @@
-print("homework")
-
+print("-homework-")

@@ -18,3 +18,5 @@ elif x=="n":
     print("yes")
 else:
     print("why")
+    pass
+
