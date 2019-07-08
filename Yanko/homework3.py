@@ -119,7 +119,7 @@ y=10
 while x>0
     y=y-1
 
-    
+
 # факториал
 def fact(x):
     if x==0:
