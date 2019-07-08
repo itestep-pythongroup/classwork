@@ -35,7 +35,6 @@
 # while True:
 
 
-x = input("enter number")
 try:
     x = int(input("enter number"))
 
