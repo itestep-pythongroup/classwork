@@ -2,6 +2,16 @@
 # Попробуйте, используя итерацию сделать список
 # [10,9,8,7,6,5,4,3,2,1,0]
 
+def ten(x):
+ y=[]
+ while x>0:
+     # y*=x
+     x-=1
+     y.append(x)
+ return y
+print (ten(11))
+
+# example 1.1
 x=[]
 x.append(10)
 x.append(9)
@@ -16,10 +26,11 @@ x.append(1)
 x.append(0)
 print(x)
 
-# example 1.1
+# example 1.2
 x="109876543210"
 y=[]
 for i in x:
     y.append(i)
 print(y)
 # проблема с цыфрой 10
+
