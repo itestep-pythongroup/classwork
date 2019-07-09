@@ -1,8 +1,9 @@
+print("у тебя проблема с памятью?")
 x=input("y/n\n")
 if x=="n":
-    print("no")
+    print("нет")
 elif x=="y":
-    print("yes")
+    print("да")
 else:
-    print("--------")
+    print("возможно")
 
