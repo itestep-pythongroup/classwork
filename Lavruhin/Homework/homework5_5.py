@@ -10,9 +10,16 @@ def sum(x):
 print(sum([1,2,3,4,5]))
 
 # example 1.1
+x=[1,2,3,4,5]
+y=0
+for i in x:
+    y+=i
+print(y)
+
+# example 1.2
 # рекурсия
 def s(x):
-   if len(x) == 1:
+   if len(x)==1:
         return x[0]
    else:
         return x[0] + s(x[1:])
