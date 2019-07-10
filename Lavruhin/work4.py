@@ -33,4 +33,3 @@ try:
     x = int(input("enter number"))
 except:
     print("ошибка")
-    
