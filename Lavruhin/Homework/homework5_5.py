@@ -7,10 +7,10 @@ def sum(x):
     for i in x:
         y=y+i
     return y
-print(sum([1,2,3,4,5]))
+print(sum([1,3,4,5]))
 
 # example 1.1
-x=[1,2,3,4,5]
+x=[1,3,4,5]
 y=0
 for i in x:
     y+=i
@@ -23,5 +23,5 @@ def s(x):
         return x[0]
    else:
         return x[0] + s(x[1:])
-print(s([1,2,3,4,5]))
+print(s([1,3,4,5]))
 
