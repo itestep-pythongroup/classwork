@@ -9,11 +9,11 @@
 # print(bool(regex.match("qwer@hello.com")))
 
 
-# x = input ("Vvedite parol")
-k= hash(input ("Vvedite parol"))
-# y = input ("Povtorite parol")
-c= hash(input ("Povtorite parol"))
-if k==c:
+# придумай_пароль = input ("Vvedite parol")
+Зафишырованый_парольx= hash(input ("Vvedite parol"))
+# повтори_пароль = input ("Povtorite parol"), hash- шыфрует пароль
+Зафишырованый_парольy= hash(input ("Povtorite parol"))
+if Зафишырованый_парольx==Зафишырованый_парольy:
     print("Yes")
 else:
     print ("go")
