@@ -18,10 +18,19 @@ def f(x):
 print (f(5))
 
 #variant3
-#разобраться
-#def fact(n):
-#    n = 5
-#    while n > 1:
-#    fact (n-1) * n
-#
-#print(fact(n))
+x = 0
+y = 1
+while x < 5:
+    x = (x + 1)
+    y = x * y
+print("finished: ", y)
+
+#variant4
+def fact(x):
+    if x==0:
+        return 1
+    y=x
+    return fact (y-1) * y
+print(fact(5))
+
+
