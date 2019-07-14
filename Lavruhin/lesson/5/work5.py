@@ -101,6 +101,15 @@ print(134 + 125)
 
 переменная_а = "asdad"
 print(переменная_а)
+# пример
+# придумай_пароль = input ("Vvedite parol")
+Зафишырованый_парольx= hash(input ("Vvedite parol"))
+# повтори_пароль = input ("Povtorite parol"), hash- шыфрует пароль
+Зафишырованый_парольy= hash(input ("Povtorite parol"))
+if Зафишырованый_парольx==Зафишырованый_парольy:
+    print("Yes")
+else:
+    print ("go")
 
 # xor
 
