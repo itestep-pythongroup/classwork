@@ -4,24 +4,24 @@
 
 #итерация
 #[] - список
-# x.append - добавить в список
-# x=[]
-# x.append("a")
-# x.append("b")
-# x.append("c")
-# x.append("4")
-# print(x)
+#x.append - добавить в список
+#x=[]
+#x.append("a")
+#x.append("b")
+#x.append("c")
+#x.append("4")
+#print(x)
 #
-# for i in x:
+#for i in x:
 # # i - каждый элемент сиска, переменная
 # #for i in x[0:2]: - срезать список
 # #x[0:2] - срезать список
 #     print(i)
 # #достать из списка
-# print(x[0])
-# print(x[1])
-# print(x[2])
-# print(x[3])
+#print(x[0])
+#print(x[1])
+#print(x[2])
+#print(x[3])
 
 
 # x=[]
@@ -78,8 +78,9 @@
 #     print ("исполнится всегда")
 
 
-try:
-    x=int(input("Enter number->"))
-    print(x)
-except:
-    print("error")
+#try:
+#    x=int(input("Enter number->"))
+#   print(x)
+#except:
+#    print("error")
+#x.
